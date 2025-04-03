@@ -38,3 +38,33 @@ body {
 }
 
 /* 上の部分は気にせずここから書く */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  width: 750px;
+  height: 720px;
+  border: 1.5px solid black;
+  margin-top: 6px;
+  position: absolute;
+  left: 30%;
+}
+
+.red-box {
+  background-color: red;
+  width: 265px;
+  height: 130px;
+  position: absolute;
+  left: 350px;
+}
+
+.blue-box {
+  background-color: blue;
+  width: 270px;
+  height: 120px;
+  position: absolute;
+  top: 260px;
+}
