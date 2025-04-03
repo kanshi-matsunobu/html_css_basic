@@ -38,3 +38,18 @@ body {
 }
 
 /* 上の部分は気にせずここから書く */
+body {
+  background-color: #fff;
+  padding: 0;
+  text-align: center;
+ }
+ 
+ 
+ .image-box img {
+  width: 1000px;
+  height: auto;
+  margin-top: 8px;
+  position: absolute;
+  left: 20%;
+ }
+ 
